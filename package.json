@@ -1,0 +1,30 @@
+{
+  "name": "bugmenot-crawler",
+  "version": "1.0.0",
+  "description": "A web API to crawl shared logins from bugmenot.com ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeshwanth-reddy/bugmenot-crawler"
+  },
+  "keywords": [
+    "crawler",
+    "bugmenot",
+    "yeshwanth-reddy"
+  ],
+  "author": "Yeshwanth Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeshwanth-reddy/bugmenot-crawler/issues"
+  },
+  "homepage": "https://github.com/yeshwanth-reddy/bugmenot-crawler",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "express": "^4.13.1",
+    "request": "^2.60.0"
+  }
+}
