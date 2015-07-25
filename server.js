@@ -2,6 +2,9 @@ var express = require('express');
 var request = require('request');
 var cheerio = require('cheerio');
 var app     = express();
+app.get('/', function(req, res){
+	res.send("try some domain (/<domain>)");
+});
 app.get('/:name?', function(req, res){
 	name = req.params.name;
 	url = 'http://www.bugmenot.com/view/'+name;
