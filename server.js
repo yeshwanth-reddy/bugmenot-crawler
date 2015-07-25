@@ -27,7 +27,8 @@ app.get('/:name?', function(req, res){
 		}
 	});
 });
-
-app.listen('8081')
-console.log('localhost:8081/<site_name>');
+var port = process.env.PORT || 8081;
+app.listen(port,function(){
+console.log('localhost:8081/<site_name>');	
+});
 exports = module.exports = app; 	
